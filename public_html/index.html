@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>e-Commerce</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newCascadeStyleSheet.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header id="site-header">
+            <div class="container" id="ajaxtest">
+                
+                <h1>Mini New Bulgarian University e-Commerce&#8482;</h1>
+            </div>
+        </header>
+            <div class="container">
+                <section id="cart">
+                    <article class="product">
+                        <header>
+                            <a class="remove">
+                                
+                                <img src="imgs/propic.jpg" alt="Product One">
+                                <h3>Remove product</h3>
+                            </a>
+                        </header>
+
+                        <div class="content">
+
+                            <h1 id="pro1">Product One</h1>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <footer class="content">
+                            
+                            <span class="qt-minus" id="show">Remove from Basket</span>
+                            
+                            <span class="qt">0</span>
+                            
+                            <span class="qt-plus" onclick="showButtons();">Add to Basket</span>
+                            
+                            <h2 class="full-price">
+                                0.00€
+                            </h2>
+                            <h2 class="price">
+                                14.99€
+                            </h2>
+                        </footer>
+                    </article>
+                    <article class="product">
+                        <header>
+                            <a class="remove">
+                                
+                                <img src="imgs/propic.jpg" alt="Product Two">
+                                <h3>Remove product</h3>
+                            </a>
+                        </header>
+                        <div class="content">
+
+                            <h1>Product Two</h1>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+
+                        <footer class="content">
+
+                            <span class="qt-minus" id="show1">Remove from Basket</span>
+                            
+                            <span class="qt">0</span>
+                            
+                            <span class="qt-plus" onclick="showButtons1();">Add to Basket</span>
+
+                            <h2 class="full-price">
+                                0.00€
+                            </h2>
+
+                            <h2 class="price">
+                                9.99€
+                            </h2>
+                        </footer>
+                    </article>
+                    <article class="product">
+                        <header>
+                            <a class="remove">
+                                
+                                <img src="imgs/propic.jpg" alt="Product Three">
+                                <h3>Remove product</h3>
+                            </a>
+                        </header>
+                        <div class="content">
+
+                            <h1>Product Three</h1>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <footer class="content">
+
+                            <span class="qt-minus" id="show2">Remove from Basket</span>
+                    
+                            <span class="qt">0</span>
+                    
+                            <span class="qt-plus" onclick="showButtons2();">Add to Basket</span>
+
+                            <h2 class="full-price">
+                                0.00€
+                            </h2>
+                            <h2 class="price">
+                                1.99€
+                            </h2>
+                        </footer>
+                    </article>
+                </section>
+            </div>
+        <footer id="site-footer">
+            <div class="container clearfix">
+                <div class="left">
+                    <!-- <h3>Shipping: <span>Free</span> :)</h3> -->
+                </div>
+                <div class="right" id="wrap">
+                
+                    <h1 class="total">Total: <span>0.00</span>€</h1>  
+                    <a class="btn" id="ajax">Confirm Order</a>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="newjavascript.js" type="text/javascript"></script>
+    </body>
+</html>
